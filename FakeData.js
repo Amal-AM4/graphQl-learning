@@ -5,6 +5,22 @@ const UserList = [
     username: "anya_s_dev",
     age: 28,
     nationality: "INDIAN",
+    friends: [
+      {
+        id: 2,
+        name: "Maximus 'Max' Peterson",
+        username: "max_power_77",
+        age: 45,
+        nationality: "AMERICAN",
+      },
+      {
+        id: 5,
+        name: "Sofia Rodriguez",
+        username: "sofi_rodr",
+        age: 19,
+        nationality: "MEXICAN",
+      },
+    ],
   },
   {
     id: 2,
@@ -54,6 +70,15 @@ const UserList = [
     username: "chen_w88",
     age: 36,
     nationality: "CHINESE",
+    friends: [
+      {
+        id: 2,
+        name: "Maximus 'Max' Peterson",
+        username: "max_power_77",
+        age: 45,
+        nationality: "AMERICAN",
+      },
+    ],
   },
   {
     id: 9,
@@ -68,7 +93,7 @@ const UserList = [
     username: "daveoc007",
     age: 30,
     nationality: "IRISH",
-  }
+  },
 ];
 
 module.exports = { UserList };
