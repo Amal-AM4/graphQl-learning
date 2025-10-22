@@ -96,4 +96,43 @@ const UserList = [
   },
 ];
 
-module.exports = { UserList };
+const MovieList = [
+  {
+    id: "1",
+    name: "Galactic Drift",
+    yearOfPublication: 2022,
+    isInTheaters: false,
+  },
+  {
+    id: "2",
+    name: "Echoes of Tomorrow",
+    yearOfPublication: 2023,
+    isInTheaters: true,
+  },
+  {
+    id: "3",
+    name: "The Last Ember",
+    yearOfPublication: 2021,
+    isInTheaters: false,
+  },
+  {
+    id: "4",
+    name: "Neon Horizon",
+    yearOfPublication: 2024,
+    isInTheaters: true,
+  },
+  {
+    id: "5",
+    name: "Whispers in the Fog",
+    yearOfPublication: 2020,
+    isInTheaters: false,
+  },
+  {
+    id: "6",
+    name: "Chrono Pulse",
+    yearOfPublication: 2025,
+    isInTheaters: true,
+  },
+];
+
+module.exports = { UserList, MovieList };
